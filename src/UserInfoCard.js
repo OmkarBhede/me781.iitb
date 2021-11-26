@@ -396,7 +396,7 @@ const UserInfoCard = () => {
                   <div className="flex w-full pr-2 my-4">
                     <div className="grid grid-cols-1 mx-4">
                       <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
-                        essay 1
+                        My self summary
                       </label>
                       <textarea
                         rows="3"
@@ -408,7 +408,7 @@ const UserInfoCard = () => {
                   <div className="flex w-full pr-2 my-4">
                     <div className="grid grid-cols-1 mx-4">
                       <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
-                        essay 2
+                        What I’m doing with my life
                       </label>
                       <textarea
                         rows="3"
@@ -420,7 +420,7 @@ const UserInfoCard = () => {
                   <div className="flex w-full pr-2 my-4">
                     <div className="grid grid-cols-1 mx-4">
                       <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
-                        essay 3
+                        I’m really good at
                       </label>
                       <textarea
                         rows="3"
@@ -432,7 +432,57 @@ const UserInfoCard = () => {
                   <div className="flex w-full pr-2 my-4">
                     <div className="grid grid-cols-1 mx-4">
                       <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
-                        essay 4
+                        The first thing people usually notice about me
+                      </label>
+                      <textarea
+                        rows="3"
+                        className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex w-full pr-2 my-4">
+                    <div className="grid grid-cols-1 mx-4">
+                      <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                        Favorite books, movies, show, music, and food
+                      </label>
+                      <textarea
+                        rows="3"
+                        className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex w-full pr-2 my-4">
+                    <div className="grid grid-cols-1 mx-4">
+                      <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                        The six things I could never do without
+                      </label>
+                      <textarea
+                        rows="3"
+                        className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex w-full pr-2 my-4">
+                    <div className="grid grid-cols-1 mx-4">
+                      <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                        I spend a lot of time thinking about
+                      </label>
+                      <textarea
+                        rows="3"
+                        className="py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex w-full pr-2 my-4">
+                    <div className="grid grid-cols-1 mx-4">
+                      <label className="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
+                        On a typical Friday night I am
                       </label>
                       <textarea
                         rows="3"
