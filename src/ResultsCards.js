@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHeart, FaRegUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import TinderCard from "react-tinder-card";
 
 import boy1 from "./assets/boy/1.png";
@@ -16,7 +17,129 @@ import girl5 from "./assets/girl/5.png";
 
 const boys = [boy1, boy2, boy3, boy4, boy5];
 const girls = [girl1, girl2, girl3, girl4, girl5];
+const perLike = [
+  [41, 39, 38],
+  [48, 46, 44],
+  [58, 53, 54],
+  [60, 68, 69],
+  [74, 78, 77],
+];
+const names = [
+  "Bruce",
+  "Cook",
+  "Carolyn",
+  "Morgan",
+  "Albert",
+  "Walker",
+  "Randy",
+  "Reed",
+  "Larry",
+  "Barnes",
+  "Lois",
+  "Wilson",
+  "Jesse",
+  "Campbell",
+  "Ernest",
+  "Rogers",
+  "Theresa",
+  "Patterson",
+  "Henry",
+  "Simmons",
+  "Michelle",
+  "Perry",
+  "Frank",
+  "Butler",
+  "Shirley",
+];
 
+const body_type = [
+  "rather not say",
+  " thin",
+  " overweight",
+  " skinny",
+  " average",
+  " fit",
+  " athletic",
+  " jacked",
+  " a little extra",
+  " curvy",
+  " full figured",
+  " used up",
+];
+
+const diet = [
+  "anything",
+  " vegetarian",
+  " vegan",
+  " kosher",
+  " halal",
+  " other",
+];
+
+const drinks = [
+  "very often",
+  " often",
+  " socially",
+  " rarely",
+  " desperately",
+  " not at all",
+];
+
+const drugs = ["never", " sometimes", " often"];
+
+const education = [
+  "graduated from",
+  " working on",
+  " dropped out of",
+  " high school",
+  " two=year college",
+  " university",
+  " masters program",
+  " law school",
+  " med school",
+  " Ph.D program",
+  " space camp",
+];
+
+const orientation = ["straight", " gay", " bisexual"];
+
+const pets = [
+  "has dogs",
+  " likes dogs",
+  " dislikes dogs",
+  "has cats",
+  " likes cats",
+  " dislikes cats",
+];
+
+const religion = [
+  "agnosticism",
+  " atheism",
+  " Christianity",
+  " Judaism",
+  " Catholicism",
+  " Islam",
+  " Hinduism",
+  " Buddhism",
+  " Other",
+];
+
+const sex = ["male", "female"];
+
+const sign = [
+  "aquarius",
+  "pices",
+  "aries",
+  "Taurus",
+  "Gemini",
+  "cancer",
+  "leo",
+  "virgo",
+  "libra",
+  "scorpio",
+  "saggitarius",
+  "Capricorn",
+];
 const ResultsCards = () => {
   // ...
 
@@ -28,12 +151,28 @@ const ResultsCards = () => {
     console.log(name + " left the screen!");
   };
 
-  const results = [{ name: "omkar" }, { name: "vishal" }];
+  const results = [
+    { name: names[Math.floor(Math.random() * names.length)] },
+    { name: names[Math.floor(Math.random() * names.length)] },
+    { name: names[Math.floor(Math.random() * names.length)] },
+    { name: names[Math.floor(Math.random() * names.length)] },
+    { name: names[Math.floor(Math.random() * names.length)] },
+  ];
   return (
     <div>
-      <div className="min-w-screen min-h-screen wave-bg flex items-center justify-center px-5 py-5 ">
+      <div className="min-w-screen min-h-screen wave-bg flex flex-col items-center justify-center px-5 py-5 ">
+        <div className="flex -mx-3 mt-8">
+          <div className="w-full px-3 mb-2 ">
+            <Link
+              to="/"
+              className="flex w-full items-center justify-center  max-w-xs mx-auto bg-white   text-indigo-700 rounded-lg px-3 py-3 font-semibold"
+            >
+              Go Back
+            </Link>
+          </div>
+        </div>
         <div className="w-full h-full ">
-          {results.map((e) => (
+          {results.map((e, index) => (
             <TinderCard
               key={e.name}
               onSwipe={(dir) => swiped(dir, e.name)}
@@ -43,7 +182,14 @@ const ResultsCards = () => {
                 <div className="absolute  top-3 right-5 ">
                   <div className="flex flex-col items-center justify-center">
                     <FaHeart className="text-red-500 text-3xl"></FaHeart>
-                    <div className="text-sm font-extrabold ">50 %</div>
+                    <div className="text-sm font-extrabold ">
+                      {
+                        perLike[index][
+                          Math.floor(Math.random() * perLike[index].length)
+                        ]
+                      }{" "}
+                      %
+                    </div>
                   </div>
                 </div>
                 <div className="text-center mb-8">
@@ -59,6 +205,45 @@ const ResultsCards = () => {
                     {e.name}
                   </h1>
                   <p>*above data is just for visualization purposes.</p>
+                  <div className="font-semibold text-xl  pt-4 text-gray-900">
+                    <div>
+                      Body Type :{" "}
+                      {body_type[Math.floor(Math.random() * body_type.length)]}
+                    </div>
+                    <div>
+                      Diet : {diet[Math.floor(Math.random() * diet.length)]}
+                    </div>
+                    <div>
+                      Drinks :{" "}
+                      {drinks[Math.floor(Math.random() * drinks.length)]}
+                    </div>
+                    <div>
+                      Drugs : {drugs[Math.floor(Math.random() * drugs.length)]}
+                    </div>
+                    <div>
+                      Education :{" "}
+                      {education[Math.floor(Math.random() * education.length)]}
+                    </div>
+                    <div>
+                      Orientation :{" "}
+                      {
+                        orientation[
+                          Math.floor(Math.random() * orientation.length)
+                        ]
+                      }
+                    </div>
+                    <div>
+                      Pets : {pets[Math.floor(Math.random() * pets.length)]}
+                    </div>
+                    <div>
+                      Religion :{" "}
+                      {religion[Math.floor(Math.random() * religion.length)]}
+                    </div>
+                    <div>
+                      Sign : {sign[Math.floor(Math.random() * sign.length)]}
+                    </div>
+                    <div>Age : {Math.floor(Math.random() * 40 + 25)}</div>
+                  </div>
                 </div>
               </div>
             </TinderCard>

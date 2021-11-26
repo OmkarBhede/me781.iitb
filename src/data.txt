@@ -1,0 +1,34 @@
+age: age of user with random noise added for anonymization
+
+body_type- 'rather not say',' thin',' overweight',' skinny',' average',' fit',' athletic',' jacked',' a little extra',' curvy',' full figured',' used up'
+
+diet- 'anything',' vegetarian',' vegan',' kosher',' halal',' other'
+
+drinks- 'very often',' often',' socially',' rarely',' desperately',' not at all'
+
+drugs- 'never',' sometimes',' often'
+
+education- 'graduated from',' working on',' dropped out of',' high school',' two-year college',' university',' masters program',' law school',' med school',' Ph.D program',' space camp'
+
+orientation- 'straight',' gay',' bisexual'
+
+pets- 'has dogs',' likes dogs',' dislikes dogs' ,'has cats',' likes cats',' dislikes cats'
+
+religion- 'agnosticism',' atheism',' Christianity',' Judaism',' Catholicism',' Islam',' Hinduism',' Buddhism',' Other'
+
+sex- 'm', 'f'
+
+sign- 'aquarius', 'pices', 'aries', 'Taurus', 'Gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'saggitarius', 'Capricorn'
+
+smokes- 'yes', 'sometimes', 'when drinking', 'trying to quit', 'no'
+
+essay0- My self summary
+essay1- What I’m doing with my life
+essay2- I’m really good at
+essay3- The first thing people usually notice about me
+essay4- Favorite books, movies, show, music, and food
+essay5- The six things I could never do without
+essay6- I spend a lot of time thinking about
+essay7- On a typical Friday night I am
+essay8- The most private thing I am willing to admit
+essay9- You should message me if...
