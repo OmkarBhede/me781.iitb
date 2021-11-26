@@ -16,6 +16,18 @@ import girl4 from "./assets/girl/4.png";
 import girl5 from "./assets/girl/5.png";
 
 const boys = [boy1, boy2, boy3, boy4, boy5];
+const allimg = [
+  boy1,
+  boy2,
+  boy3,
+  boy4,
+  boy5,
+  girl1,
+  girl2,
+  girl3,
+  girl4,
+  girl5,
+];
 const girls = [girl1, girl2, girl3, girl4, girl5];
 const perLike = [
   [41, 39, 38],
@@ -197,7 +209,7 @@ const ResultsCards = () => {
                     <div className="flex bg-purple-200 rounded-full md:p-2 p-2 border-2 border-purple-300">
                       <img
                         className="w-20 h-20 "
-                        src={girls[Math.floor(Math.random() * girls.length)]}
+                        src={allimg[Math.floor(Math.random() * allimg.length)]}
                       ></img>
                     </div>
                   </div>
