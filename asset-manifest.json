@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/me781.iitb/static/css/main.f0140571.chunk.css",
-    "main.js": "/me781.iitb/static/js/main.19625994.chunk.js",
-    "main.js.map": "/me781.iitb/static/js/main.19625994.chunk.js.map",
-    "runtime-main.js": "/me781.iitb/static/js/runtime-main.2fa3fcd7.js",
-    "runtime-main.js.map": "/me781.iitb/static/js/runtime-main.2fa3fcd7.js.map",
-    "static/js/2.b30bc372.chunk.js": "/me781.iitb/static/js/2.b30bc372.chunk.js",
-    "static/js/2.b30bc372.chunk.js.map": "/me781.iitb/static/js/2.b30bc372.chunk.js.map",
+    "main.js": "/me781.iitb/static/js/main.238b967b.chunk.js",
+    "main.js.map": "/me781.iitb/static/js/main.238b967b.chunk.js.map",
+    "runtime-main.js": "/me781.iitb/static/js/runtime-main.a8137818.js",
+    "runtime-main.js.map": "/me781.iitb/static/js/runtime-main.a8137818.js.map",
+    "static/js/2.3012f0ce.chunk.js": "/me781.iitb/static/js/2.3012f0ce.chunk.js",
+    "static/js/2.3012f0ce.chunk.js.map": "/me781.iitb/static/js/2.3012f0ce.chunk.js.map",
     "index.html": "/me781.iitb/index.html",
     "static/css/main.f0140571.chunk.css.map": "/me781.iitb/static/css/main.f0140571.chunk.css.map",
-    "static/js/2.b30bc372.chunk.js.LICENSE.txt": "/me781.iitb/static/js/2.b30bc372.chunk.js.LICENSE.txt",
+    "static/js/2.3012f0ce.chunk.js.LICENSE.txt": "/me781.iitb/static/js/2.3012f0ce.chunk.js.LICENSE.txt",
     "static/media/1.ac3b792b.png": "/me781.iitb/static/media/1.ac3b792b.png",
     "static/media/1.d38d2bca.png": "/me781.iitb/static/media/1.d38d2bca.png",
     "static/media/2.1ae6ed08.png": "/me781.iitb/static/media/2.1ae6ed08.png",
@@ -22,9 +22,9 @@
     "static/media/5.f9dde329.png": "/me781.iitb/static/media/5.f9dde329.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fa3fcd7.js",
-    "static/js/2.b30bc372.chunk.js",
+    "static/js/runtime-main.a8137818.js",
+    "static/js/2.3012f0ce.chunk.js",
     "static/css/main.f0140571.chunk.css",
-    "static/js/main.19625994.chunk.js"
+    "static/js/main.238b967b.chunk.js"
   ]
 }
