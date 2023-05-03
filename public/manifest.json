@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Partner Predictor",
+  "name": "ME781 course project using regression model",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

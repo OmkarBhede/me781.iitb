@@ -1,5 +1,5 @@
 {
-  "name": "Partner Predictor",
+  "name": "partner-predictor",
   "version": "0.1.0",
   "private": true,
   "description": "ME781 course project using regression model",
